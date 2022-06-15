@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(81, 133, 133, 0.347);
+}
+h1{
+    margin-left: 35%;
+}
+.box1{
+    width: 90%;
+    height: 600px;
+    margin:auto ;
+    margin-top: 50px;
+}
+    
+
+
+.b1,.b2,.b3,.b4,.b5,.b6,.b7{
+    height: 70px;
+    width: 70px;
+    border: 1px solid rgb(254, 100, 100);
+    margin-bottom: 20px;
+    background-color: rgb(134, 202, 33);
+    transition-duration: 2s;
+    margin-left: 40%;
+}
+    
+.b1:hover{
+    width: 300px;
+}
+.b2:hover{
+    height: 200px;
+    width: 300px;
+    transition-property: width,height;
+    transition-duration:2s, 4s;
+}
+
+
+.b3:hover{
+    width: 200px;
+    transition-duration: 4s;
+}
+.b4:hover{
+    width: 200px;
+    transition-duration: 4s;
+    transition-timing-function: ease;
+}
+.b5:hover{
+    width: 200px;
+    transition-duration: 4s;
+    transition-timing-function: ease-in;
+}
+
+.b6:hover{
+    width: 200px;
+    transition-duration: 4s;
+    transition-timing-function: ease-in-out;
+}
+.b7:hover{
+    width: 200px;
+    transition-duration: 4s;
+    transition-timing-function: ease-out;
+}
+p{
+    margin-left: 42%;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
